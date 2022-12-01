@@ -1,4 +1,4 @@
-# apollo server and client in a nutshell 🚀
+# Apollo server and client in a nutshell 🚀
 
 A hello world application using apollo server in the backend and apollo client in the frontend with react 😎
 
