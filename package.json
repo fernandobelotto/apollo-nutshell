@@ -1,0 +1,28 @@
+{
+  "name": "apollo-nutshell",
+  "version": "1.0.0",
+  "description": "A hello world application using apollo server in the backend and apollo client in the frontend with react 😎",
+  "main": "index.js",
+  "scripts": {
+     "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\"",
+      "dev:server": "npm run dev -w server",
+      "dev:client": "npm run dev -w client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandobelotto/apollo-nutshell.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandobelotto/apollo-nutshell/issues"
+  },
+  "homepage": "https://github.com/fernandobelotto/apollo-nutshell#readme",
+  "workspaces": [
+    "*"
+  ],
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
